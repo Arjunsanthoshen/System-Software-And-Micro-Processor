@@ -1,0 +1,9 @@
+001000  COPY       START      1000       **        
+001000  **         LDA        ALPHA      01009     
+001003  **         MUL        BETA       20100C    
+001006  **         STA        GAMMA      0C100F    
+001009  ALPHA      WORD       2          000002    
+00100C  BETA       WORD       7          000007    
+00100F  GAMMA      RESW       1          **        
+001012  EOF        BYTE       C'EOF'     454F46    
+001015  **         END        **         **        
